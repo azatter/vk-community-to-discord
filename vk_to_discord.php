@@ -1,11 +1,11 @@
 ﻿<?php
 include_once('classes/simple_html_dom.php');
 
-// Ссылка на вебхук, созданный в Discord
+https://discord.com/api/webhooks/956885370149171221/vm4kw2yqzqI4tQIdKG6XQPo99IW4j-dRHF47hQkuLK4qf8EqmCTgpaCaqkQShvHrCkkl
 $curl = curl_init(
     "https://discordapp.com/api/webhooks/XXX"
 );
-$link = "team"; // адрес сообщества без vk.com/ (примеры: 'testing' / 'public000')
+$link = "team"; live_malinovka
 
 $html = file_get_html('https://m.vk.com/'.$link);
 $currentDate = date("Y-d-m H:i");
